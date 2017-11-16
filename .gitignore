@@ -1,0 +1,10 @@
+.idea/
+.tmp/
+*.log
+*.sqlite
+log/
+node_modules/
+.stage/
+.nyc_output
+npm-debug.log
+.env

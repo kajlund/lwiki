@@ -1,0 +1,18 @@
+{
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": false,
+      "mocha": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": [
+        "error", {
+          "singleQuote": true,
+          "tabWidth": 4
+        }
+      ]
+    }
+  }
